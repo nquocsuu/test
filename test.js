@@ -1,5 +1,5 @@
 // A URL returns TEXT data.
-import fetch from "node-fetch";
+
 
 // A URL returns TEXT data.
 var url = "https://ex1.o7planning.com/_testdatas_/simple-text-data.txt";
