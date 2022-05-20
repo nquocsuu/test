@@ -1,7 +1,4 @@
-// A URL returns TEXT data.
 
-
-// A URL returns TEXT data.
 var url = "https://ex1.o7planning.com/_testdatas_/simple-text-data.txt";
 
 
@@ -9,7 +6,7 @@ function doGetTEXT()  {
 
   // Call fetch(url) with default options.
   // It returns a Promise object (Resolve response object)
-  var aPromise = fetch(url);
+  var aPromise = fetch(url,{mode:'no-cross'});
 
   // Work with Promise object:
   aPromise
