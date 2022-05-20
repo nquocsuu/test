@@ -6,7 +6,7 @@ function doGetTEXT()  {
 
   // Call fetch(url) with default options.
   // It returns a Promise object (Resolve response object)
-  var aPromise = fetch(url,{mode:'no-cross'});
+  var aPromise = fetch(url,{ mode: 'no-cors'});
 
   // Work with Promise object:
   aPromise
