@@ -12,7 +12,7 @@ function doGetTEXT()  {
   aPromise
     .then(function(response) {
         console.log("OK! Server returns a response object:");
-        document.getElementsByTagName('p').innerHTML(response)
+        document.getElementsByTagName('p').innerHTML = response
     })
     .catch(function(error)  {
         console.log("Noooooo! Something error:");
